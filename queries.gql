@@ -1,0 +1,24 @@
+query Human {
+  human(id: 1004) {
+    id
+    name
+    friends{
+      __typename
+      id
+      name
+    }
+  }
+}
+
+
+query Droid {
+  droid(id: "2000") {
+    id
+    name
+    friends{
+      __typename
+      id
+      name
+    }
+  }
+}

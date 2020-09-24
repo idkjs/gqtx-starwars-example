@@ -1,0 +1,24 @@
+{
+  "name": "gqtx-starwars-example",
+  "version": "1.0.0",
+  "main": "dist/src/starwars.js",
+  "author": "Alain Armand <aarmand.inbox@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "gqtx": "^0.7.0",
+    "graphql": "^15.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc",
+    "watch":"tsc -w -p ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^4.0.2"
+  }
+}
